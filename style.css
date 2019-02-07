@@ -3,8 +3,13 @@
 	padding: 0;
 }
 header{
-
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Circuit.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	font-family: monospace;
 }
+
 .main-nav{
 	float: right;
 	list-style: none;
@@ -18,9 +23,10 @@ header{
 	text-decoration: none;
 	padding: 5px 20px;
 	font-family: "Roboto", sans-serif;
-	font-size: 15px;
+	font-size: 20px;
+	width: 60px;
 }
-.main-nav li.active a{
+.active a{
 	border: 1px solid white;
 }
 .main-nav li a:hover{
@@ -29,18 +35,6 @@ header{
 .row{
 	max-width: 1200px;
 	margin: auto;
-}
-.logo img{
-	width: 57.29px;
-	height: auto;
-	float: left;
-}
-body{
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Circuit.jpg");
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-	font-family: monospace;
 }
 .hero{
 	position: absolute;
@@ -52,12 +46,13 @@ h1{
 	color: white;
 	text-transform: uppercase;
 	font-size: 70px;
+	font-family: "Verdana", "sans-serif";
 	text-align: center;
 	margin-top: 275px;
 }
 .button{
 	margin-top: 30px;
-	margin-left: 440px;
+	margin-left: 540px;
 }
 .btn{
 	border: 1px solid white;
@@ -65,7 +60,7 @@ h1{
 	color: white;
 	text-decoration: none;
 	margin-right: 5px;
-	font-size: 13px;
+	font-size: 22px;
 	text-transform: uppercase;
 }
 .btn-one{
